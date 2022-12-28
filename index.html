@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <section id="navbar">
+    <nav>
+      <ul>
+        <li><h1><a href="index.html"><span aria-hidden="true" class="fa-solid fa-headset"></span><span>Me</span></a></h1></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-me">Contact</a></li>
+        <li><a href="https://www.linkedin.com/in/juanca-lujan/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true" ></span><span class="sr-only">LinkedIn</span></a></li>
+        <li><a href="https://github.com/JuancaLujan" target="_blank"><span class="fa-brands fa-github"></span><span class="sr-only">Github</span></a></li>
+        <li><a class="noCalc-button" href="">Resume</a></li>
+      </ul>
+    </nav>
+  </section>
+  <section id="intro">
+    <p class="name">Hi, my name is <span>Juan Carlos Lujan.</span></p>
+    <h2>Self-taught programmer</h2>
+    <p>I'm a student specializing in Frontend.</p>
+    <p>Currently, I'm in search of my first Frontend job.</p>
+  </section>
+  <div class="gradient"></div>
+  <section id="about">
+    <h3>Who am I?</h3>
+    <div class="portrait">
+      <div class="description">  
+        <p>I was born on September 11, 1992. I live in Mar del Plata, Argentina.</p>
+        <p>I love stories. It is my dream to become both a programmer and a videogame storywriter.</p>
+        <p>I've actually written a book but I don't like how it ends so I am not going to publish it.</p>
+        <p>I speak English, Spanish and a bit of Italian.</p>
+        <p>Boca Juniors fan.</p>
+      </div>
+      <img src="img/me.png" alt="selfie" id="selfie">
+    </div>
+  </section>
+  <div class="gradient"></div>
+  <section id="resources">
+    <h3>Learning at</h3>
+      <ul>
+        <li>Frontend Masters</li>
+        <li>W3Schools</li>
+        <li>FreeCodeCamp</li>
+        <li>Coursera</li>
+        <li>Argentina Programa</li>
+      </ul>
+  </section>
+  <div class="gradient"></div>
+  <section id="projects">
+    <h3>Some Projects</h3>
+    <article>
+      <div class="text">
+        <h5>Frontend Masters Bootcamp Project</h5>
+        <h4>Calculator</h4>
+        <p class="darkbox">This is a really simple, basic calculator with a few flaws on its interface but works perfectly for simple calculations.</p>
+        <h6>Technologies used include:</h6>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Flexbox</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <section class="screen">
+            0
+        </section>
+        <section class="calc-buttons">
+            <div class="row">
+                <button class="button num doble">C</button>
+                <button class="button num">&larr;</button>
+                <button class="button sign">/</button>
+            </div>
+            <div class="row">
+                <button class="button num">7</button>
+                <button class="button num">8</button>
+                <button class="button num">9</button>
+                <button class="button sign">x</button>
+            </div>
+            <div class="row">
+                <button class="button num">4</button>
+                <button class="button num">5</button>
+                <button class="button num">6</button>
+                <button class="button sign">−</button>
+            </div>
+            <div class="row">
+                <button class="button num">1</button>
+                <button class="button num">2</button>
+                <button class="button num">3</button>
+                <button class="button sign">+</button>
+            </div>
+            <div class="row">
+                <button class="button num triple">0</button>
+                <button class="button sign">=</button>
+            </div>
+        </section>
+      </div>
+    </article>
+    <article>
+      <div class="text">
+        <h5>Shining Force 2 Characters</h5>
+        <h4>Photo Gallery</h4>
+        <p class="darkbox">Photo gallery which enables or disables buttons depending on which position of the array you're at. The width and height variation when changing the picture is intentional.</p>
+        
+        <h6>Technologies used include:</h6>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div id="ph-gall">
+        <div class="galeria">
+            <img src="img/01 - Bowie.jpg" alt="Bowie" class="foto activa">
+            <img src="img/02 - Sarah.jpg" alt="Sarah" class="foto">
+            <img src="img/03 - Chester.jpg" alt="Chester" class="foto">
+            <img src="img/04 - Jaha.jpg" alt="Jaha" class="foto">
+            <img src="img/05 - Kazin.jpg" alt="Kazin" class="foto">
+        </div>
+        <div class="botones">
+        <button disabled class="botonGal prev">Prev</button>
+        <button class="botonGal next">Next</button> 
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="text">
+        <h5>Shining Force 2 Characters</h5>
+        <h4>Swiper</h4>
+        <p class="darkbox">Photo gallery made with Swiper</p>
+        <h6>Technologies used include:</h6>
+        <ul>
+          <li>JavaScript</li>
+          <li>Swiper (Third Party Library)</li>
+        </ul>
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/01 - Bowie.jpg" alt="Bowie"></div>
+          <div class="swiper-slide"><img src="img/02 - Sarah.jpg" alt="Sarah"></div>
+          <div class="swiper-slide"><img src="img/03 - Chester.jpg" alt="Chester"></div>
+          <div class="swiper-slide"><img src="img/04 - Jaha.jpg" alt="Jaha"></div>
+          <div class="swiper-slide"><img src="img/05 - Kazin.jpg" alt="Kazin"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </article>
+</section>
+  <div class="gradient"></div>
+  <section id="contact-me">
+    <h3>Contact me</h3>
+    <p>Email: juanclujan.92@gmail.com</p>
+    <p>Phone Number: +549 0223 156-061317</p>
+    <p #margin><a class="noCalc-button" href="mailto:juanclujan.92@gmail.com">Email me</a></p>
+  </section>
+  <div class="gradient"></div>
+  <footer>
+    <h3>Juan Carlos Lujan - Enthusiast</h3>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/juanca-lujan/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true"></span><span class="sr-only">LinkedIn</span></a></li>
+        <li><a href="https://github.com/JuancaLujan" target="_blank"><span class="fa-brands fa-github"></span><span class="sr-only">Github</span></a></li>
+      <li><a href="mailto:juanclujan.92@gmail.com"><span class="fa-solid fa-envelope"></span><span class="sr-only">Email</span></a></li>
+    </ul>
+    <p>Disclaimer: This webpage might not be pretty. I'm not a designer</p>
+    <p>Thechnologies used in the creation of this website include:</p>
+    <p>HTML - CSS - Flexbox - Grid - JavaScript</p>
+  </footer>
+  <script src="js/scripts.js"></script>
+  <script src="js/js.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/js2.js"></script>
+  <script src="js/swiper.js"></script>
+</body>
+</html>
