@@ -1,0 +1,48 @@
+Human:
+"Brave of you sir, to so
+openly cast an envious eye
+towards me and mine.
+I suggest you look elsewhere,
+lest I consider removing your sight in a more
+permanent fashion."
+
+City Elf:
+"Take another step,
+human, and I guarantee it shall be your last.
+My friends are dead and my life is in tatters
+because of you and your kin. I have
+nothing to lose, but you still possess
+your other eye."
+
+Dalish Elf
+"What a wonder it is to see such
+stalwart bravado in one such as
+yourself. It is heartwarming,
+truly, to see that there are yet
+humans willing to risk a slow
+and torturous death in pursuit of
+our most sacred treasures."
+
+Mage:
+"Tread carefully, friend.
+If you intend to cross the
+path of one whose soul is
+so tightly woven into the realm of the arcane,
+I would not suggest
+you do it lightly."
+
+Dwarf Commoner:
+" I suggest you reach for your purse
+swiftly friend. Ale may have dulled
+my senses enough so that I merely
+maim your pretty features,
+but should I become sober I will be
+in a mood to show
+you a new realm of pain and violence."
+
+Dwarf Noble:
+"What I have seen and done to
+achieve my position defies belief.
+What I am capable of and will
+be party to in order to retain it
+would chill your soul."

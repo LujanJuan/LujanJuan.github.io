@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <section id="navbar">
     <nav>
       <ul>
-        <li><h1><a href="index.html"><span aria-hidden="true" class="fa-solid fa-headset"></span><span>Me</span></a></h1></li>
+        <li><a href="#me"><span aria-hidden="true" class="fa-solid fa-headset"></span><span>Me</span></a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact-me">Contact</a></li>
         <li><a href="https://www.linkedin.com/in/juanca-lujan/" target="_blank"><span class="fa-brands fa-linkedin" aria-hidden="true" ></span><span class="sr-only">LinkedIn</span></a></li>
-        <li><a href="https://github.com/LujanJuan" target="_blank"><span class="fa-brands fa-github"></span><span class="sr-only">Github</span></a></li>
-        <li><a class="noCalc-button" href="">Resume</a></li>
+        <li><a href="https://github.com/lujanjuan" target="_blank"><span class="fa-brands fa-github"></span><span class="sr-only">Github</span></a></li>
+        <li><a class="noCalc-button" id="resume" href="">Resume</a></li>
       </ul>
+      <div class="gradient"></div>
     </nav>
   </section>
   <section id="intro">
-    <p class="name">Hi, my name is <span>Juan Carlos Lujan.</span></p>
-    <h2>Self-taught programmer</h2>
-    <p>I'm a student specializing in Frontend.</p>
-    <p>Currently, I'm in search of my first Frontend job.</p>
+      <p class="name">Hi, I'm </p><h1>Juan Carlos Lujan.</h1>
+      <h2>Self-taught programmer</h2>
+      <p>I'm a student specializing in Frontend.</p>
+      <p>Currently, I'm in search of my first Frontend job.</p>
   </section>
   <div class="gradient"></div>
   <section id="about">
@@ -37,135 +36,169 @@
     <div class="portrait">
       <div class="description">  
         <p>I was born on September 11, 1992. I live in Mar del Plata, Argentina.</p>
-        <p>I love stories. It is my dream to become both a programmer and a videogame storywriter.</p>
-        <p>I've actually written a book but I don't like how it ends so I am not going to publish it.</p>
+        <p>I love stories. It is my dream to become both a programmer and a storywriter.</p>
         <p>I speak English, Spanish and a bit of Italian.</p>
         <p>Boca Juniors fan.</p>
+        <p>Since 18/12/2022: World Champion.</p>
       </div>
       <img src="img/me.png" alt="selfie" id="selfie">
     </div>
   </section>
   <div class="gradient"></div>
   <section id="resources">
-    <h3>Learning at</h3>
+    <h3>Currently learning at</h3>
       <ul>
-        <li>Frontend Masters</li>
-        <li>W3Schools</li>
-        <li>FreeCodeCamp</li>
-        <li>Coursera</li>
-        <li>Argentina Programa</li>
+        <li class="position1-2"><a href="https://frontendmasters.com/" target="_blank">Frontend Masters</a></li>
+        <li class="position1-4" ><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        <li class="position1-6" ><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
+        <li class="position2-3" ><a href="https://es.coursera.org/" target="_blank">Coursera</a></li>
+        <li class="position2-5" ><a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank">Argentina Programa</a></li>
       </ul>
   </section>
   <div class="gradient"></div>
   <section id="projects">
     <h3>Some Projects</h3>
-    <article>
-      <div class="text">
-        <h5>Frontend Masters Bootcamp Project</h5>
-        <h4>Calculator</h4>
-        <p class="darkbox">This is a really simple, basic calculator with a few flaws on its interface but works perfectly for simple calculations.</p>
-        <h6>Technologies used include:</h6>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Flexbox</li>
-          <li>JavaScript</li>
-        </ul>
-      </div>
-      <div class="wrapper">
-        <section class="screen">
-            0
-        </section>
-        <section class="calc-buttons">
-            <div class="row">
-                <button class="button num doble">C</button>
-                <button class="button num">&larr;</button>
-                <button class="button sign">/</button>
-            </div>
-            <div class="row">
-                <button class="button num">7</button>
-                <button class="button num">8</button>
-                <button class="button num">9</button>
-                <button class="button sign">x</button>
-            </div>
-            <div class="row">
-                <button class="button num">4</button>
-                <button class="button num">5</button>
-                <button class="button num">6</button>
-                <button class="button sign">−</button>
-            </div>
-            <div class="row">
-                <button class="button num">1</button>
-                <button class="button num">2</button>
-                <button class="button num">3</button>
-                <button class="button sign">+</button>
-            </div>
-            <div class="row">
-                <button class="button num triple">0</button>
-                <button class="button sign">=</button>
-            </div>
-        </section>
-      </div>
-    </article>
-    <article>
-      <div class="text">
-        <h5>Shining Force 2 Characters</h5>
-        <h4>Photo Gallery</h4>
-        <p class="darkbox">Photo gallery which enables or disables buttons depending on which position of the array you're at. The width and height variation when changing the picture is intentional.</p>
-        
-        <h6>Technologies used include:</h6>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-      </div>
-      <div id="ph-gall">
-        <div class="galeria">
-            <img src="img/01 - Bowie.jpg" alt="Bowie" class="foto activa">
-            <img src="img/02 - Sarah.jpg" alt="Sarah" class="foto">
-            <img src="img/03 - Chester.jpg" alt="Chester" class="foto">
-            <img src="img/04 - Jaha.jpg" alt="Jaha" class="foto">
-            <img src="img/05 - Kazin.jpg" alt="Kazin" class="foto">
-        </div>
-        <div class="botones">
-        <button disabled class="botonGal prev">Prev</button>
-        <button class="botonGal next">Next</button> 
+    <div class="project-and-description">
+      <button id="calculator-project" class="project-button"><span class="text">Calculator</span></button>
+      <div id="calculator-container" class="project-container">
+        <div class="project-viewer" id="calculator-viewer">
+          <div class="wrapper">
+            <section class="screen">
+                0
+            </section>
+            <section class="calc-buttons">
+                <div class="row">
+                    <button class="button num doble">C</button>
+                    <button class="button num">&larr;</button>
+                    <button class="button sign">/</button>
+                </div>
+                <div class="row">
+                    <button class="button num">7</button>
+                    <button class="button num">8</button>
+                    <button class="button num">9</button>
+                    <button class="button sign">x</button>
+                </div>
+                <div class="row">
+                    <button class="button num">4</button>
+                    <button class="button num">5</button>
+                    <button class="button num">6</button>
+                    <button class="button sign">−</button>
+                </div>
+                <div class="row">
+                    <button class="button num">1</button>
+                    <button class="button num">2</button>
+                    <button class="button num">3</button>
+                    <button class="button sign">+</button>
+                </div>
+                <div class="row">
+                    <button class="button num triple">0</button>
+                    <button class="button sign">=</button>
+                </div>
+            </section>
+          </div>
+          <button  class="closeButton">Close</button>
         </div>
       </div>
-    </article>
-    <article>
-      <div class="text">
-        <h5>Shining Force 2 Characters</h5>
-        <h4>Swiper</h4>
-        <p class="darkbox">Photo gallery made with Swiper</p>
-        <h6>Technologies used include:</h6>
-        <ul>
-          <li>JavaScript</li>
-          <li>Swiper (Third Party Library)</li>
-        </ul>
+      <p>This is a really simple, basic calculator with a few flaws on its interface but works perfectly for simple calculations. This was my first project</p>
+    </div>
+    <div class="project-and-description">
+    <button id="image-gallery-project" class="project-button"><span class="text">Image Gallery</span></button>
+    <div id="image-gallery-container" class="project-container">
+      <div class="project-viewer" id="image-gallery-viewer">
+        <div class="image-gallery">
+          <img src="img/dragon age origins/Human-Noble.png" class="foto active">
+          <img src="img/dragon age origins/Mage.png" class="foto">
+          <img src="img/dragon age origins/Elf-City.png" class="foto">
+          <img src="img/dragon age origins/Elf-Dalish.png" class="foto">
+          <img src="img/dragon age origins/Dwarf-Noble.png" class="foto">
+          <img src="img/dragon age origins/Dwarf-Commoner.png" class="foto">
       </div>
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="img/01 - Bowie.jpg" alt="Bowie"></div>
-          <div class="swiper-slide"><img src="img/02 - Sarah.jpg" alt="Sarah"></div>
-          <div class="swiper-slide"><img src="img/03 - Chester.jpg" alt="Chester"></div>
-          <div class="swiper-slide"><img src="img/04 - Jaha.jpg" alt="Jaha"></div>
-          <div class="swiper-slide"><img src="img/05 - Kazin.jpg" alt="Kazin"></div>
+      <div class="div-botones">
+          <button disabled class="img-gal-boton prev">Prev</button>
+          <button class="img-gal-boton next">Next</button>
+      </div>
+        <button class="closeButton">Close</button>
+      </div>
+    </div>
+    <p>Photo gallery. Meet all the possible Origins from Dragon Age: Origins</p>
+    </div>
+    <div class="project-and-description">
+      <button id="image-gallery-with-swiper-project" class="project-button"><span class="text">Image Gallery with Swiper</span></button>
+      <div id="image-gallery-with-swiper-container" class="project-container">
+      <div class="project-viewer" id="swiper-viewer">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/shining force 2/01 - Bowie.jpg" alt="Bowie"></div>
+            <div class="swiper-slide"><img src="img/shining force 2/02 - Sarah.jpg" alt="Sarah"></div>
+            <div class="swiper-slide"><img src="img/shining force 2/03 - Chester.jpg" alt="Chester"></div>
+            <div class="swiper-slide"><img src="img/shining force 2/04 - Jaha.jpg" alt="Jaha"></div>
+            <div class="swiper-slide"><img src="img/shining force 2/05 - Kazin.jpg" alt="Kazin"></div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-scrollbar"></div>
+        <button class="closeButton">Close</button>
       </div>
-    </article>
-</section>
+    </div>
+    <p>Photo gallery made with Swiper. Meet my favorite Shining Force 2 characters!</p>
+    </div>
+    <div class="project-and-description">
+      <button id="add-doggo-project" 
+      class="project-button"><span class="text">Add Doggo</span></button>
+      <div id="add-doggo-container" class="project-container">
+        <div class="project-viewer doggo-holder">
+          <button class="add-doggo add-doggo-button">Add Doggo</button>
+          <div class="doggos">
+          </div>
+          <button class="closeButton">Close</button>
+        </div>
+      </div>
+      <p>Just press the button to see a nice dog. API management.</p>
+    </div>
+    <div class="project-and-description">
+      <button id="dog-viewer-project" class="project-button"><span class="text">Dog Viewer</button>
+      <div id="dog-viewer-container" class="project-container">
+        <div class="project-viewer">
+          <div class="dog-viewer-header">
+            <div class="dog-viewer-title">Dog Viewer</div>
+            <nav>
+                <ul class="dog-viewer-nav-list">
+                  <li><select id="dog-viewer-breed">
+                  </select>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="dog-viewer-box">
+            <img id="dog-viewer-main" class="dog-viewer-main-image" src="" alt="main viewer">
+            <span id="dog-viewer-loader" class="loading-dog dog-viewer-show">🐶</span>
+        </div>
+          <button class="closeButton">Close</button>
+        </div>
+      </div>
+      <p>Just choose your favorite doggo and it will appear!</p>
+    </div>
+  </section>
   <div class="gradient"></div>
   <section id="contact-me">
     <h3>Contact me</h3>
     <p>Email: juanclujan.92@gmail.com</p>
     <p>Phone Number: +549 0223 156-061317</p>
-    <p #margin><a class="noCalc-button" href="mailto:juanclujan.92@gmail.com">Email me</a></p>
+    <p><a class="email-me" href="mailto:juanclujan.92@gmail.com">Email me</a></p>
+  </section>
+  <div class="gradient"></div>
+  <section id="me">
+    <h3>Things I like (You might want to skip this)</h3>
+    <ul>
+      <li>Football (It's not called soccer)</li>
+      <li>Snes and Sega Genesis Games</li>
+      <li>Hard Rock and Heavy Metal</li>
+      <li>Sebastian Fitzek's Books</li>
+      <li>Dragon Age:Origins</li>
+      <li>Good wines</li>
+    </ul>
   </section>
   <div class="gradient"></div>
   <footer>
@@ -175,14 +208,16 @@
         <li><a href="https://github.com/LujanJuan" target="_blank"><span class="fa-brands fa-github"></span><span class="sr-only">Github</span></a></li>
       <li><a href="mailto:juanclujan.92@gmail.com"><span class="fa-solid fa-envelope"></span><span class="sr-only">Email</span></a></li>
     </ul>
-    <p>Disclaimer: This webpage might not be pretty. I'm not a designer</p>
-    <p>Thechnologies used in the creation of this website include:</p>
+    <p>Disclaimer: This webpage might not be pretty. I'm not a designer.</p>
+    <p>Technologies used in the creation of this website include:</p>
     <p>HTML - CSS - Flexbox - Grid - JavaScript</p>
   </footer>
-  <script src="js/scripts.js"></script>
-  <script src="js/js.js"></script>
+  <script src="javascript/javascript.js"></script>
+  <script src="javascript/dog-viewer.js"></script>
+  <script src="javascript/add-doggo.js"></script>
+  <script src="javascript/calculator.js"></script>
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <script src="js/js2.js"></script>
-  <script src="js/swiper.js"></script>
+  <script src="javascript/photo-gallery.js"></script>
+  <script src="javascript/swiper.js"></script>
 </body>
 </html>
