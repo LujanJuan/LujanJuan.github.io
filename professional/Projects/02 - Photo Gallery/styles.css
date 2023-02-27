@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.foto{
+    display: none;
+    max-height: 600px;
+}
+.active{
+    display: block;
+}
+
+.image-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.boton{
+    background-color: #0074d9;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prev{
+    margin-right: 15px;
+}
+
+.boton:disabled{
+    background-color: #777;
+    cursor: not-allowed;
+}
