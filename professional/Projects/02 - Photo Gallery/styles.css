@@ -1,41 +1,45 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.foto{
-    display: none;
-    max-height: 600px;
+body,
+div {
+  margin: 0;
+  padding: 0;
 }
-.active{
-    display: block;
+.foto {
+  display: none;
+  max-height: 90vh;
 }
-
-.image-gallery{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.botones{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
-.boton{
-    background-color: #0074d9;
-    color: white;
-    font-size: 20px;
-    padding: 5px 20px;
-    border-color: transparent;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.prev{
-    margin-right: 15px;
+.active {
+  display: block;
 }
 
-.boton:disabled{
-    background-color: #777;
-    cursor: not-allowed;
+.image-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botones {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boton {
+  background-color: #0074d9;
+  color: white;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.prev {
+  margin-right: 15px;
+}
+
+.boton:disabled {
+  background-color: #777;
+  cursor: not-allowed;
 }
