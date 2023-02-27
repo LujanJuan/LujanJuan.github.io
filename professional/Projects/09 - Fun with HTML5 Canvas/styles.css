@@ -1,3 +1,15 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-height: 90vh;
+}
+canvas {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 1rem auto 0 auto;
+  border-bottom: 2px solid black;
+  text-align: center;
 }
