@@ -151,7 +151,7 @@ nav [class*="fa-"]:hover {
   padding: 1rem;
 }
 #resources {
-  padding: 2rem 2rem 2rem 4rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 #resources h3 {
   font-size: 2.5rem;
@@ -219,17 +219,18 @@ nav [class*="fa-"]:hover {
 }
 #projects {
   background-color: var(--projects-background);
-  padding: 2.5rem 2rem 2rem 4rem;
+  padding: 2.5rem 2rem 2rem 2rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 #projects h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 4rem;
   margin-top: 4rem;
   color: var(--projects-color);
   flex-basis: 100%;
+  text-align: center;
 }
 .project-button {
   align-items: center;
@@ -281,7 +282,7 @@ nav [class*="fa-"]:hover {
 }
 
 #contact-me {
-  padding: 4rem 2rem 2rem 4rem;
+  padding: 4rem 4rem 2rem 4rem;
   background-color: var(--contact-background);
   color: var(--contact-color);
   text-align: center;
@@ -310,7 +311,7 @@ nav [class*="fa-"]:hover {
   transition: all 0.2s ease-in;
 }
 #certificates {
-  padding: 4rem 4rem 2rem 4rem;
+  padding: 4rem 4rem 4rem 4rem;
   background-color: var(--me-background);
   color: var(--me-color);
   text-align: center;
