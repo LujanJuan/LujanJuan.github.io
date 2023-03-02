@@ -474,24 +474,17 @@ footer p:last-child {
     max-width: 1500px;
   }
 }
-/* The grid: Four equal columns that floats next to each other */
 
-/* Style the images inside the grid */
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* The expanding image container (positioning is needed to position the close button and the text) */
 .container {
   position: relative;
   display: none;
 }
-
-/* Expanding image text */
 #imgtext {
   position: absolute;
   bottom: 15px;
