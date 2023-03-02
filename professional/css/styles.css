@@ -311,7 +311,7 @@ nav [class*="fa-"]:hover {
   transition: all 0.2s ease-in;
 }
 #certificates {
-  padding: 4rem 4rem 4rem 4rem;
+  padding: 4rem;
   background-color: var(--me-background);
   color: var(--me-color);
   text-align: center;
