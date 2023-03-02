@@ -16,7 +16,7 @@
       <nav>
         <ul>
           <li>
-            <a href="#me"
+            <a href=""
               ><span aria-hidden="true" class="fa-solid fa-headset"></span
               ><span>Me</span></a
             >
@@ -36,7 +36,11 @@
               ><span class="sr-only">Github</span></a
             >
           </li>
-          <li><a class="noCalc-button" id="resume" href="">Resume</a></li>
+          <li>
+            <a class="noCalc-button" id="resume" href="#certificates"
+              >Certificates</a
+            >
+          </li>
         </ul>
         <div class="gradient"></div>
       </nav>
@@ -201,16 +205,52 @@
       </p>
     </section>
     <div class="gradient"></div>
-    <section id="me">
-      <h3>Things I like (You might want to skip this)</h3>
-      <ul>
-        <li>Football (It's not called soccer)</li>
-        <li>Snes and Sega Genesis Games</li>
-        <li>Hard Rock and Heavy Metal</li>
-        <li>Sebastian Fitzek's Books</li>
-        <li>Dragon Age:Origins</li>
-        <li>Good wines</li>
-      </ul>
+    <section id="certificates">
+      <h3>Certificates</h3>
+      <div class="row">
+        <div class="column">
+          <img
+            src="img/cert/Captura de pantalla 2023-03-01 103216.png"
+            alt="cert one"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/cert/Captura de pantalla 2023-03-01 103333.png"
+            alt="cert two"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/cert/Captura de pantalla 2023-03-02 123646.png"
+            alt="cert three"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/cert/Captura de pantalla 2023-03-02 123715.png"
+            alt="cert four"
+            onclick="myFunction(this);"
+          />
+        </div>
+      </div>
+
+      <!-- The expanding image container -->
+      <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >&times;</span
+        >
+
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width: 100%" />
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
     </section>
     <div class="gradient"></div>
     <footer>
@@ -239,5 +279,6 @@
       <p>Technologies used in the creation of this website include:</p>
       <p>HTML - CSS - Flexbox - Grid - JavaScript</p>
     </footer>
+    <script src="javascript.js"></script>
   </body>
 </html>

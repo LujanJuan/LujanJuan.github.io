@@ -76,6 +76,7 @@ nav ul li a {
   top: 0;
   left: 0;
   width: 100vw;
+  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -308,18 +309,18 @@ nav [class*="fa-"]:hover {
   color: var(--email-me-backgr);
   transition: all 0.2s ease-in;
 }
-#me {
-  padding: 4rem 2rem 2rem 4rem;
+#certificates {
+  padding: 4rem 4rem 2rem 4rem;
   background-color: var(--me-background);
   color: var(--me-color);
   text-align: center;
 }
-#me h3 {
+#certificates h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 3rem;
 }
-#me ul li {
+#certificates ul li {
   list-style-type: none;
   font-size: 1.25rem;
   line-height: 50px;
@@ -471,4 +472,52 @@ footer p:last-child {
     width: 1500px;
     max-width: 1500px;
   }
+}
+/* The grid: Four equal columns that floats next to each other */
+
+/* Style the images inside the grid */
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: blue;
+  font-size: 50px;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.column img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.column img:hover {
+  opacity: 1;
 }
