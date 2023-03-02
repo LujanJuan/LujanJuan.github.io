@@ -320,7 +320,6 @@ nav [class*="fa-"]:hover {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 3rem;
-  max-width: 80%;
 }
 #certificates ul li {
   list-style-type: none;
